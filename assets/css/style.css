@@ -26,6 +26,26 @@ h1, h2 {
 	color: #252525;
 }
 
+#logo {
+	float: left;
+	font-size:140%;
+	margin-left:30px;
+}
+
+/* Navigation links */
+
+#menu {
+	font-size: 110%;
+	letter-spacing:2px;
+	float:right;
+}
+
+#menu li {
+	float: left;
+	list-style-type: none;
+	margin-right: 30px;
+}
+
 /* Footer styling for social media links */
 
 .social-networks {
