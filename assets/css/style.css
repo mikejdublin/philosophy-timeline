@@ -12,6 +12,7 @@
     margin: 0;
     padding: 0;
     border: none;
+	box-sizing: border-box;
 }
 
 body {
@@ -59,6 +60,38 @@ header > a {
 #menu a:hover {
 	border-bottom:1px solid #3a3a3a;
 }
+
+#main-content {
+	clear:both;
+}
+
+/* Styling main content */
+.column {
+	float: left;
+	padding: 10px;
+  }
+  
+  
+  #main-image {
+	width: 20%;
+  }
+  
+  #timeline-intro {
+	width: 33%;
+  }
+  
+  #timeline {
+	width: 33%;
+  }
+  
+  /* Clear floats after the columns */
+  #main-content:after {
+	content: "";
+	display: table;
+	clear: both;
+  }
+
+
 
 /* Footer styling for social media links */
 
