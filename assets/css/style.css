@@ -26,6 +26,9 @@ body {
 
 }
 
+#outer-div {
+	margin:0 3em;
+}
 
 
 p {
@@ -48,7 +51,7 @@ h2 {
 #logo {
 	float: left;
 	font-size: 140%;
-	margin-left: 2em;
+	margin-left: 0.7rem;
 }
 
 header>a {
@@ -116,7 +119,7 @@ header>a {
 }
 
 #timeline {
-	width: 15em;
+	width: 18em;
 	flex-shrink: 0;
 	text-align:left;
 }
@@ -127,9 +130,6 @@ header>a {
 	display: table;
 	clear: both;
 }
-
-
-
 
 #timeline h4 {
 	margin-top: 0.8em;
