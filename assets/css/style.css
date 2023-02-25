@@ -27,8 +27,6 @@ body {
 	max-width: 1200px;
 	margin:auto;
 	margin-top:1.3em;
-
-
 }
 
 #outer-div {
@@ -57,8 +55,9 @@ font-family: 'Merriweather', serif;
 
 #logo {
 	float: left;
-	font-size: 140%;
-	margin-left: 0.7rem;
+	font-size: 1.5rem;
+	margin-left: 0rem;
+	margin-bottom:1rem;
 }
 
 header>a {
@@ -119,7 +118,7 @@ header>h2 {
 /* Styling main content */
 .column {
 	float: left;
-	padding: 0.7em;
+	padding-right: 1.2rem;
 }
 
 
@@ -155,8 +154,6 @@ header>h2 {
 	font-size:0.9rem;
 
 }
-
-
 
 #timeline a {
 	color:#5a5a5a;
@@ -196,6 +193,7 @@ header>h2 {
 	#menu {
 		float: left;
 		margin: 1em;
+		margin-left:0;
 	}
 	
   }
@@ -204,10 +202,59 @@ header>h2 {
 
 @media (max-width: 50rem) {
 	/*  Move menu to the left and under the title for narrower screens. */
-	
-	body {
-		background-color:re
+
+	#main-image {
+		width: 0em;
 	}
 
+	#logo {
+		margin-left:0;
+	}
 	
-  }
+	.column {
+		padding:0;
+	}
+
+	#main-content {
+		margin:0;
+	}
+
+	#timeline {
+		padding-left:1rem;
+	}
+
+	#outer-div {
+		margin:0;
+		margin-left:2rem;
+		margin-right:2rem;
+	}
+
+}
+
+/* Mobile and below */
+
+@media (max-width: 43rem) {
+	/*  Move menu to the left and under the title for narrower screens. */
+	
+
+
+	#main-content {
+		display:block;
+	}
+
+	.column {
+		padding:0;
+	}
+
+	#outer-div {
+		margin:0;
+		margin-left:1rem;
+		margin-right:1rem;
+	}
+
+	#timeline {
+		margin-top:1.5rem;
+		padding-left:0;
+	}
+	
+}

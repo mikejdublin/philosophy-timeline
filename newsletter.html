@@ -1,134 +1,260 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="description" content="A timeline of philosophy from the Pre-socratics to the present day.">
-	<meta name="keywords" content="philosophy, history, timeline">
-	<title>Philosophy Timeline</title>
-	<link rel="stylesheet" type="text/css" href="./assets/css/style.css">
-	<title>Philosophy Timeline</title>
-</head>
-
-<body>
-	<div id="outer-div">
-		<header>
-			<h2>The Internet</h2>
-			<a href="index.html" id="logo">
-				<h1>Timeline of Philosophy</h1>
-			</a>
-
-			<!-- Main menu -->
-			<nav>
-				<ul id="menu">
-					<li>
-						<a href="index.html" class="active">Home</a>
-					</li>
-					<li>
-						<a href="newsletter.html">Newsletter</a>
-					</li>
-				</ul>
-			</nav>
-		</header>
-
-		<section id="main-content">
-			<div class="column" id="main-image" ">
-		  <img src="assets/images/newsletter.png" alt="Plato and Aristotle (fresco detail) by Raphael">
-
-			</div>
-			<div id="timeline-intro" class="column" ">
-			<h3>A Journey Through Time, The Quest for Understanding</h3>
-		  <h4>Philosophy from c. 624 BCE to present</h4>
-		
-		  
-		  <p>Philosophy is a rich and diverse tradition that spans over two thousand years of human history. Starting with the Pre-Socratic philosophers, it has encompassed a wide range of philosophical movements, including the Socratic and Platonic tradition, Hellenistic philosophy, the Aristotelian tradition, Roman and Early Christian philosophy, Medieval philosophy, Renaissance philosophy, Modern philosophy, and Contemporary philosophy. Philosophy has explored a broad range of questions about reality, knowledge, ethics, politics, and the meaning of life, and has made profound contributions to our understanding of the world and ourselves.</p>
-		</div>
-		<div id="timeline" class="column" ">
-		  <h2>Timeline</h2>
-		  		<h4>
-					Primal Questions, Pioneering Thoughts.
-				</h4>
-				
-					<a href="#">Pre-Socratic Philosophy<br>from 624 to 450 BCE</a>
-				
-				<h4>
-					Inquiry and Insight, Reason and Reflection.
-				</h4>
-				<a href="#">The Socratic and Platonic Tradition<br>
-						from 469 to 347 BCE</a>
-				
-				<h4>Cosmopolitan Ideas, Personal Ethics.</h4>
-				
-					<a href="#">Hellenistic Philosophy<br>
-						from 323 to 31 BCE</a>
-				
-
-				<h4>
-					Reasoned Realism, Empirical Exploration.
-				</h4>
-					<a href="#">The Aristotelian Tradition<br>
-						from 384-322 BCE</a>
-
-				<h4>
-					Cultural Synthesis, Ethical and Religious Reflection.
-				</h4>
-					<a href="#">Roman and Early Christian Philosophy
-						<br>from 27 BCE to 451 CE</a>
-				</p>
-				<h4>
-					The Middle Path, Theology and Reason in Tandem.
-				</h4>
-				<p>
-					<a href="#">Medieval Philosophy
-						<br>from 500 to 1500 CE </a>
-				</p>
-				<h4>
-					The Revival of Antiquity, A New Humanism."
-				</h4>
-				<p>
-					<a href="#">Renaissance Philosophy
-						<br>from 1400 to 1600 CE</a>
-				</p>
+/* Stylesheet for Philosophy Timeline */
 
 
-			</div>
-		</section>
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&family=Sanchez:ital@0;1&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Roboto+Slab:wght@700&family=Sanchez:ital@0;1&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Playball&display=swap');
 
 
+/* Global default styles */
 
-		<footer>
-			<footer>
-				<ul class="social-networks">
-					<li>
-						<a href="https://facebook.com" target="_blank" rel="noopener"
-							aria-label="Visit our Facebook page (opens in a new tab)."><i
-								class="fa-brands fa-facebook"></i></a>
-					</li>
-					<li>
-						<a href="https://twitter.com" target="_blank" rel="noopener"
-							aria-label="Visit our Twitter page (opens in a new tab)."><i
-								class="fa-brands fa-twitter-square"></i></a>
-					</li>
-					<li>
-						<a href="https://youtube.com" target="_blank" rel="noopener"
-							aria-label="Visit our Youtube channel (opens in a new tab)."><i
-								class="fa-brands fa-youtube-square"></i></a>
-					</li>
-					<li>
-						<a href="https://instagram.com" target="_blank" rel="noopener"
-							aria-label="Visit our Instagram page (opens in a new tab)."><i
-								class="fa-brands fa-square-instagram"></i></a>
-					</li>
-				</ul>
-			</footer>
-		</footer>
+* {
+	margin: 0;
 
-		<!-- font awsome script -->
-		<script src="https://kit.fontawesome.com/4f9e5a24f0.js" crossorigin="anonymous"></script>
+	padding: 0;
+	border: none;
+	box-sizing: border-box;
+}
 
-	</div>
-</body>
+body {
+	font-family: 'Sanchez', serif;
+	
+	font-weight: 300;
+	color: #5a5a5a;
+	background-color: #FCF8F1;
+	max-width: 1200px;
+	margin:auto;
+	margin-top:1.3em;
+}
 
-</html>
+#outer-div {
+	margin:0 3em 0 3em;
+}
+
+
+p {
+	word-wrap: break-word;
+	overflow-wrap: break-word;
+	text-align: justify;
+	-webkit-hyphens: auto;
+	-moz-hyphens: auto;
+	-ms-hyphens: auto;
+	hyphens: auto;
+}
+
+h1, h2, h3 {
+	font-family: 'Roboto Slab', serif;
+	letter-spacing: 2px;
+	color: #2d2d2d;
+}
+h1 {
+font-family: 'Merriweather', serif;
+}
+
+#logo {
+	float: left;
+	font-size: 1.5rem;
+	margin-left: 0rem;
+	margin-bottom:1rem;
+}
+
+header>a {
+	text-decoration: none;
+}
+
+header>h2 {
+	font-style: italic;
+	font-family: 'Playball', cursive;
+	font-size:2rem;
+}
+
+/* Navigation links */
+
+#menu {
+	font-size: 1.1em;
+	letter-spacing: 2px;
+	float: right;
+}
+
+#menu li {
+	display: inline;
+	margin-right: 30px;
+}
+
+#menu a {
+	text-decoration: none;
+	color: inherit;
+}
+
+
+#menu a:hover {
+	border-bottom: 1px solid #7a7a7a;
+}
+
+#menu .active {
+	border-bottom: 1px solid #7a7a7a;
+}
+
+#main-content {
+	clear: both;
+	display: flex;
+	justify-content: space-around;
+	align-items: stretch;
+}
+
+#main-content h3 {
+	margin-bottom: 0.5em;
+	margin-top:0;
+
+}
+
+#main-content h4 {
+	margin-bottom: 0.3em;
+
+}
+
+/* Styling main content */
+.column {
+	float: left;
+	padding-right: 1.2rem;
+}
+
+
+#main-image {
+	width: 10em;
+	flex-shrink: 0
+}
+
+#main-image>img {
+	width: 100%;
+}
+
+#timeline-intro {
+	flex: 1;
+}
+
+#timeline {
+	width: 18em;
+	flex-shrink: 0;
+	text-align:left;
+}
+
+/* Clear floats after the columns */
+#main-content:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+#timeline h4 {
+	margin-top: 0.8em;
+	margin-bottom: 0.3em;
+	font-size:0.9rem;
+
+}
+
+#timeline a {
+	color:#5a5a5a;
+	text-decoration:none;
+	font-size:0.8rem;
+	display:block;
+}
+
+#timeline a:hover {
+	background-color: #E0DACF;
+}
+
+/* hsl(43, 100, 90); */
+
+
+/* Footer styling for social media links */
+
+.social-networks {
+	text-align: center;
+
+}
+
+.social-networks>li {
+	display: inline;
+}
+
+.social-networks i {
+	font-size: 160%;
+	margin: 1%;
+	padding: 5%;
+	color: #3a3a3a;
+}
+
+@media (max-width: 60rem) {
+	/*  Move menu to the left and under the title for narrower screens. */
+	
+	#menu {
+		float: left;
+		margin: 1em;
+		margin-left:0;
+	}
+	
+  }
+  
+
+
+@media (max-width: 50rem) {
+	/*  Move menu to the left and under the title for narrower screens. */
+
+	#main-image {
+		width: 0em;
+	}
+
+	#logo {
+		margin-left:0;
+	}
+	
+	.column {
+		padding:0;
+	}
+
+	#main-content {
+		margin:0;
+	}
+
+	#timeline {
+		padding-left:1rem;
+	}
+
+	#outer-div {
+		margin:0;
+		margin-left:2rem;
+		margin-right:2rem;
+	}
+
+}
+
+/* Mobile and below */
+
+@media (max-width: 43rem) {
+	/*  Move menu to the left and under the title for narrower screens. */
+	
+
+
+	#main-content {
+		display:block;
+	}
+
+	.column {
+		padding:0;
+	}
+
+	#outer-div {
+		margin:0;
+		margin-left:1rem;
+		margin-right:1rem;
+	}
+
+	#timeline {
+		margin-top:1.5rem;
+		padding-left:0;
+	}
+	
+}
