@@ -1,259 +1,118 @@
-/* Stylesheet for Philosophy Timeline */
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="A timeline of philosophy from the Pre-socratics to the present day.">
+	<meta name="keywords" content="philosophy, history, timeline">
+	<title>Philosophy Timeline - Newsletter</title>
+	<link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+	<title>Philosophy Timeline</title>
+</head>
+
+<body>
+	<div id="outer-div">
+		<header>
+			<h2>The Internet</h2>
+			<a href="index.html" id="logo">
+				<h1>Timeline of Philosophy</h1>
+			</a>
+
+			<!-- Main menu -->
+			<nav>
+				<ul id="menu">
+					<li>
+						<a href="index.html" >Home</a>
+					</li>
+					<li>
+						<a href="newsletter.html" class="active">Newsletter</a>
+					</li>
+				</ul>
+			</nav>
+		</header>
+
+		<section id="main-content">
+			<div class="column" id="main-image" ">
+		  <img src="assets/images/newsletter.png" alt="Plato and Aristotle (fresco detail) by Raphael">
+
+			</div>
+			<div id="timeline-intro" class="column" ">
+			<h3>Sign up to our Newsletter!</h3>
+		
+		  
+		  <p>Are you interested in philosophy and its rich history? Do you want to deepen your knowledge of the greatest thinkers of all time? Then the "Timeline of Philosophy" newsletter is for you!</p>
+
+			<p>By signing up, you'll receive a weekly dose of fascinating insights into the world of philosophy. Each newsletter covers a different period in the history of philosophy, from ancient Greece to contemporary thought. You'll learn about the key ideas and concepts that shaped each era, and discover the works of the most influential philosophers.</p>
+			
+			<p>Whether you're a student of philosophy, a professional in the field, or simply someone with a passion for intellectual exploration, the "Timeline of Philosophy" newsletter will broaden your horizons and challenge your thinking. You'll gain a deeper understanding of the world around you, and be inspired to engage with the great philosophical debates of our time.</p>
+			
+			<p>So why wait? Sign up now and join the thousands of subscribers who are already exploring the fascinating world of philosophy through the "Timeline of Philosophy" newsletter. It's free, it's informative, and it's a journey you won't want to miss!</p>
+
+			<section class="form-section" >
+				<form method="POST" action="https://formdump.codeinstitute.net" class="signup-form">
+					<h2>Sign up now!</h2>
+					
+					<label for="fname">First Name</label>
+					<input type="text" name="first_name" id="fname" required class="text-input">
+					
+					<label for="lname">Last Name</label>
+					<input type="text" name="last_name" id="lname" required class="text-input">
+					
+					<label for="email">Email Address</label>
+					<input type="email"  name="email_address" id="email" required class="text-input">
+					
+					<label for="epistemology">Epistemology</label>
+					<input type="radio" value="epistemology" name="philosophy_preference" id="epistemology" required>
+					<label for="metaphysics">Metaphysics</label>
+					<input type="radio" value="metaphysics" name="philosophy_preference" id="metaphysics">
+					<label for="both">Both</label>
+					<input type="radio" value="both" name="philosophy_preference" id="both">
+					<input type="submit" value="Send me the newsletter!" class="join-button">
+		
+				</form>
+		
+			</section>
 
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&family=Sanchez:ital@0;1&display=swap');
+		</div>
 
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Roboto+Slab:wght@700&family=Sanchez:ital@0;1&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=Monsieur+La+Doulaise&display=swap');
-
-/* Global default styles */
-
-* {
-	margin: 0;
-
-	padding: 0;
-	border: none;
-	box-sizing: border-box;
-}
-
-body {
-	font-family: 'Sanchez', serif;
-	
-	font-weight: 300;
-	color: #5a5a5a;
-	background-color: #FCF8F1;
-	max-width: 1200px;
-	margin:auto;
-	margin-top:1.3em;
-}
-
-#outer-div {
-	margin:0 3em 0 3em;
-}
+		</section>
 
 
-p {
-	word-wrap: break-word;
-	overflow-wrap: break-word;
-	text-align: justify;
-	-webkit-hyphens: auto;
-	-moz-hyphens: auto;
-	-ms-hyphens: auto;
-	hyphens: auto;
-}
 
-h2, h3 {
-	font-family: 'Roboto Slab', serif;
-	letter-spacing: 2px;
-	color: #2d2d2d;
-}
-h1 {
-font-family: 'Merriweather', serif;
-}
+		<footer>
+			<footer>
+				<ul class="social-networks">
+					<li>
+						<a href="https://facebook.com" target="_blank" rel="noopener"
+							aria-label="Visit our Facebook page (opens in a new tab)."><i
+								class="fa-brands fa-facebook"></i></a>
+					</li>
+					<li>
+						<a href="https://twitter.com" target="_blank" rel="noopener"
+							aria-label="Visit our Twitter page (opens in a new tab)."><i
+								class="fa-brands fa-twitter-square"></i></a>
+					</li>
+					<li>
+						<a href="https://youtube.com" target="_blank" rel="noopener"
+							aria-label="Visit our Youtube channel (opens in a new tab)."><i
+								class="fa-brands fa-youtube-square"></i></a>
+					</li>
+					<li>
+						<a href="https://instagram.com" target="_blank" rel="noopener"
+							aria-label="Visit our Instagram page (opens in a new tab)."><i
+								class="fa-brands fa-square-instagram"></i></a>
+					</li>
+				</ul>
+			</footer>
+		</footer>
 
-#logo {
-	float: left;
-	font-size: 1.5rem;
-	margin-left: 0rem;
-	margin-bottom:1rem;
-}
+		<!-- font awsome script -->
+		<script src="https://kit.fontawesome.com/4f9e5a24f0.js" crossorigin="anonymous"></script>
 
-header>a {
-	text-decoration: none;
-}
+	</div>
+</body>
 
-header>h2 {
-	font-family: 'Monsieur La Doulaise', cursive;
-
-	font-size:2rem;
-}
-
-/* Navigation links */
-
-#menu {
-	font-size: 1.1em;
-	letter-spacing: 2px;
-	float: right;
-}
-
-#menu li {
-	display: inline;
-	margin-right: 30px;
-}
-
-#menu a {
-	text-decoration: none;
-	color: inherit;
-}
-
-
-#menu a:hover {
-	border-bottom: 1px solid #7a7a7a;
-}
-
-#menu .active {
-	border-bottom: 1px solid #7a7a7a;
-}
-
-#main-content {
-	clear: both;
-	display: flex;
-	justify-content: space-around;
-	align-items: stretch;
-}
-
-#main-content h3 {
-	margin-bottom: 0.5em;
-	margin-top:0;
-
-}
-
-#main-content h4 {
-	margin-bottom: 0.3em;
-
-}
-
-/* Styling main content */
-.column {
-	float: left;
-	padding-right: 1.2rem;
-}
-
-
-#main-image {
-	width: 10em;
-	flex-shrink: 0
-}
-
-#main-image>img {
-	width: 100%;
-}
-
-#timeline-intro {
-	flex: 1;
-}
-
-#timeline {
-	width: 18em;
-	flex-shrink: 0;
-	text-align:left;
-}
-
-/* Clear floats after the columns */
-#main-content:after {
-	content: "";
-	display: table;
-	clear: both;
-}
-
-#timeline h4 {
-	margin-top: 0.8em;
-	margin-bottom: 0.3em;
-	font-size:0.9rem;
-
-}
-
-#timeline a {
-	color:#5a5a5a;
-	text-decoration:none;
-	font-size:0.8rem;
-	display:block;
-}
-
-#timeline a:hover {
-	background-color: #E0DACF;
-}
-
-/* hsl(43, 100, 90); */
-
-
-/* Footer styling for social media links */
-
-.social-networks {
-	text-align: center;
-
-}
-
-.social-networks>li {
-	display: inline;
-}
-
-.social-networks i {
-	font-size: 160%;
-	margin: 1%;
-	padding: 5%;
-	color: #3a3a3a;
-}
-
-@media (max-width: 60rem) {
-	/*  Move menu to the left and under the title for narrower screens. */
-	
-	#menu {
-		float: left;
-		margin: 1em;
-		margin-left:0;
-	}
-	
-  }
-  
-
-
-@media (max-width: 50rem) {
-	/*  Move menu to the left and under the title for narrower screens. */
-
-	#main-image {
-		width: 0em;
-	}
-
-	#logo {
-		margin-left:0;
-	}
-	
-	.column {
-		padding:0;
-	}
-
-	#main-content {
-		margin:0;
-	}
-
-	#timeline {
-		padding-left:1rem;
-	}
-
-	#outer-div {
-		margin:0;
-		margin-left:2rem;
-		margin-right:2rem;
-	}
-
-}
-
-/* Mobile and below */
-
-@media (max-width: 43rem) {
-	/*  Move menu to the left and under the title for narrower screens. */
-	
-
-
-	#main-content {
-		display:block;
-	}
-
-	.column {
-		padding:0;
-	}
-
-	#outer-div {
-		margin:0;
-		margin-left:1rem;
-		margin-right:1rem;
-	}
-
-	#timeline {
-		margin-top:1.5rem;
-		padding-left:0;
-	}
-	
-}
+</html>
