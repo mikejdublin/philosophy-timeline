@@ -12,3 +12,5 @@ This is an attemp to provide a timeline of philosophy using generated content.  
 Extensive use has been made of the Code Institute's "Love Running" project.
 
 Text content (but not CSS and HTML code) has been machine generated.
+
+## CSS and HTML Validation

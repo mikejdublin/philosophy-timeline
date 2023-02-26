@@ -36,8 +36,14 @@ p {
 	-moz-hyphens: auto;
 	-ms-hyphens: auto;
 	hyphens: auto;
-	margin-bottom:0.5em;
+	margin: bottom 0.2em;em;
+	text-indent:1.2rem;
 }
+
+p:first-of-type {
+	text-indent:0;
+}
+
 
 h2, h3 {
 	font-family: 'Roboto Slab', serif;
