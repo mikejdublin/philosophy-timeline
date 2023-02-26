@@ -28,6 +28,11 @@ body {
 }
 
 
+/* Define paragraph.  Encourage hyphenation. Justified text. 
+	very small gap between paragraphs.  Small indentation on first line.
+
+*/
+
 p {
 	word-wrap: break-word;
 	overflow-wrap: break-word;
@@ -40,16 +45,21 @@ p {
 	text-indent:1.2rem;
 }
 
+/* First paragraph should not be indented */
+
 p:first-of-type {
 	text-indent:0;
 }
 
+/* Main headings - Formal serif style */
 
 h2, h3 {
 	font-family: 'Roboto Slab', serif;
 	letter-spacing: 2px;
 	color: #2d2d2d;
 }
+
+/* Formal display serif style */
 h1 {
 font-family: 'Merriweather', serif;
 }
@@ -100,7 +110,7 @@ header>h2 {
 
 #main-content {
 	clear: both;
-	display: flex;
+	display: flex;  /* middle column is of flexible width */
 	justify-content: space-around;
 	align-items: stretch;
 }
@@ -117,6 +127,7 @@ header>h2 {
 }
 
 /* Styling main content */
+
 .column {
 	float: left;
 	padding-right: 1.2rem;
@@ -140,9 +151,11 @@ header>h2 {
 	margin-bottom:0.7rem;
 }
 
+/* Styling timeline on right0hand-side */
+
 #timeline {
 	width: 18em;
-	flex-shrink: 0;
+	flex-shrink: 0;  /* of fixed width */
 	text-align:left;
 }
 
@@ -171,14 +184,10 @@ header>h2 {
 	background-color: #E0DACF;
 }
 
-/* hsl(43, 100, 90); */
-
-
 /* Footer styling for social media links */
 
 .social-networks {
 	text-align: center;
-
 }
 
 .social-networks>li {
@@ -192,6 +201,8 @@ header>h2 {
 	color: #3a3a3a;
 }
 
+
+/* Styling for sign-up form */
 .form-section {
     clear: both;
     background-size: cover;
@@ -245,8 +256,7 @@ header>h2 {
     color: #5a5a5a;;
 }
 
-
-
+/* Responsive styling */
 
 @media (max-width: 60rem) {
 	/*  Move menu to the left and under the title for narrower screens. */
@@ -256,10 +266,7 @@ header>h2 {
 		margin: 1em;
 		margin-left:0;
 	}
-	
   }
-  
-
 
 @media (max-width: 50rem) {
 	/*  Move menu to the left and under the title for narrower screens. */
@@ -289,16 +296,12 @@ header>h2 {
 		margin-left:2rem;
 		margin-right:2rem;
 	}
-
 }
 
 /* Mobile and below */
 
 @media (max-width: 43rem) {
 	/*  Move menu to the left and under the title for narrower screens. */
-	
-
-
 	#main-content {
 		display:block;
 	}
