@@ -56,6 +56,8 @@ All font colours are dark on a bright background.  All images have an alt-text t
 
 Lighthouse gives the site and accessibility of 98%.
 
+assets/images/lighthouse.png
+
 [![Lighthouse Accessibility score](https://the-blackhall-projects.github.io/philosophy-timeline/assets/images/lighthouse.png)](https://pagespeed.web.dev/report?url=https%3A%2F%2Fthe-blackhall-projects.github.io%2Fphilosophy-timeline%2Findex.html&form_factor=desktop)
 
 ## Intellectual property
