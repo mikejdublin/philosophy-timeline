@@ -2,10 +2,10 @@
 ## An interactive timeline of philosophy
 
 ### Repository Location:
-https://github.com/mikejdublin/philosophy-timeline
+https://github.com/the-blackhall-projects/philosophy-timeline
 
 ### Live page
-https://mikejdublin.github.io/philosophy-timeline/
+https://the-blackhall-projects.github.io/philosophy-timeline/index.html
 
 This is an attemp to provide a timeline of philosophy using generated content.  As well as displaying the timeline, the user can sign up for a newsletter and find further content on social media sites.
 
