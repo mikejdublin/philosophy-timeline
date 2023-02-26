@@ -1,4 +1,6 @@
 /* Stylesheet for Philosophy Timeline */
+
+/* Import google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Roboto+Slab:wght@700&family=Sanchez:ital@0;1&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Quintessential&display=swap');
@@ -26,7 +28,6 @@ body {
 #outer-div {
 	margin:0 3em 0 3em;
 }
-
 
 /* Define paragraph.  Encourage hyphenation. Justified text. 
 	very small gap between paragraphs.  Small indentation on first line.
@@ -99,7 +100,6 @@ header>h2 {
 	color: inherit;
 }
 
-
 #menu a:hover {
 	border-bottom: 1px solid #7a7a7a;
 }
@@ -132,7 +132,6 @@ header>h2 {
 	float: left;
 	padding-right: 1.2rem;
 }
-
 
 #main-image {
 	width: 10em;
@@ -201,7 +200,6 @@ header>h2 {
 	color: #3a3a3a;
 }
 
-
 /* Styling for sign-up form */
 .form-section {
     clear: both;
@@ -219,7 +217,6 @@ header>h2 {
     position:relative;
     padding:30px;
 }
-
 
 .signup-form h2 {
     color:  #FCF8F1;
@@ -320,5 +317,4 @@ header>h2 {
 		margin-top:1.5rem;
 		padding-left:0;
 	}
-	
 }
