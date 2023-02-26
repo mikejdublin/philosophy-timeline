@@ -36,6 +36,43 @@ The website is incomplete as a fully complete site would require hundreds of pag
 
 The site is designed to be extended with a template html file in the project folder. 
 
+## Features
+
+### Navigation
+
+* At top of page, the heading "Timeline of Philosophy" links to the home page. Newsletter links to a sign-up page to be sent the newsletter.
+* Font for the heading is large and formal with space between the letters to emphasise importance.
+* From looking at the top of the page it is clear what the site is about.  
+
+![Header](https://github.com/the-blackhall-projects/philosophy-timeline/assets/images/header_screenshot.png)
+
+### Illustrative Image
+Each page contains an illustrative image normally a philosopher of the period.  These images are not essential to the text and are provided mainly for decordative purposes.
+
+![Illustrative image](https://github.com/the-blackhall-projects/philosophy-timeline/assets/images/illustrative_image.png)
+
+### Footer
+The footer contains a series links to social media pages for the timeline.  An ARIA description is used to indicate which site is being linked to and that the site opens on a new page. 
+
+![Footer](https://github.com/the-blackhall-projects/philosophy-timeline/assets/images/footer-screenshot.png)
+
+### Timeline
+
+Down the right-hand-side is a heirarchical timeline.  It is heirarchical in the sense that, if the user clicks on one of the entries, a page opens containing another timeline pertaining to the timeline entry clicked upon.
+
+timeline_screenshot.png
+
+![Timeline](https://github.com/the-blackhall-projects/philosophy-timeline/assets/images/timeline_screenshot.png)
+
+### Main Content
+
+The main content contains a description of the entry that the user clicked upon.  So, if on the main page, the user clicks on Renaisance Philsophy in the timeline, this is where a discription of Renaisance Philsophy appeards in the new page.
+
+![Main Content](https://github.com/the-blackhall-projects/philosophy-timeline/assets/images/main_content_screenshot.png)
+
+main_content_screenshot.png
+
+
 ## Screnshots and responsiveness
 
 Click on image below for live view on [Am I Responsive](https://ui.dev/amiresponsive).
