@@ -114,6 +114,8 @@ There are nine pages in total but the design is such that more can be added.  A 
 
 No major bugs were found but minor bugs concerning rendering were found and fixed.  In particular, getting the 3-column layout to work correctly took time to fix.
 
+No unfixed bugs remain.
+
 ## Design considerations
 
 Semantic markup has been used within the pages to convey structure.  Header, nav and footer tags are used appropriately and the main text is enclosed in a section tag.  This makes it easier for sight reader software as well as improves SEO.
@@ -177,11 +179,3 @@ Click on the links below to validate them using the [W3C Markup Validation Servi
 [renaissance_philosophy.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Fthe-blackhall-projects.github.io%2Fphilosophy-timeline%2Frenaissance_philosophy.html)
 
 All validations produce "Document checking completed. No errors or warnings to show".
-
-
-
-
-
-
-
-
