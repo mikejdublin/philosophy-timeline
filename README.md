@@ -44,17 +44,17 @@ The site is designed to be extended with a template html file in the project fol
 * Font for the heading is large and formal with space between the letters to emphasise importance.
 * From looking at the top of the page it is clear what the site is about.  
 
-![Header](https://github.com/the-blackhall-projects/philosophy-timeline/assets/images/header_screenshot.png)
+![Header](https://the-blackhall-projects.github.io/philosophy-timeline/assets/images/header_screenshot.png)
 
 ### Illustrative Image
 Each page contains an illustrative image normally a philosopher of the period.  These images are not essential to the text and are provided mainly for decordative purposes.
 
-![Illustrative image](https://github.com/the-blackhall-projects/philosophy-timeline/assets/images/illustrative_image.png)
+![Illustrative image](https://the-blackhall-projects.github.io/philosophy-timeline/assets/images/illustrative_image.png)
 
 ### Footer
 The footer contains a series links to social media pages for the timeline.  An ARIA description is used to indicate which site is being linked to and that the site opens on a new page. 
 
-![Footer](https://github.com/the-blackhall-projects/philosophy-timeline/assets/images/footer-screenshot.png)
+![Footer](https://the-blackhall-projects.github.io/philosophy-timeline/assets/images/footer-screenshot.png)
 
 ### Timeline
 
@@ -62,13 +62,13 @@ Down the right-hand-side is a heirarchical timeline.  It is heirarchical in the 
 
 timeline_screenshot.png
 
-![Timeline](https://github.com/the-blackhall-projects/philosophy-timeline/assets/images/timeline_screenshot.png)
+![Timeline](https://the-blackhall-projects.github.io/philosophy-timeline/assets/images/timeline_screenshot.png)
 
 ### Main Content
 
 The main content contains a description of the entry that the user clicked upon.  So, if on the main page, the user clicks on Renaisance Philsophy in the timeline, this is where a discription of Renaisance Philsophy appeards in the new page.
 
-![Main Content](https://github.com/the-blackhall-projects/philosophy-timeline/assets/images/main_content_screenshot.png)
+![Main Content](https://the-blackhall-projects.github.io/philosophy-timeline/assets/images/main_content_screenshot.png)
 
 main_content_screenshot.png
 
@@ -124,13 +124,17 @@ Site is easily navigated while presenting an uncluttered appearance.  Links are 
 
 Every page is created from the same template creating a consistent appearance and functionality.  When filling forms, the user is presented with feedback in order to enter the correct information.
 
-A conservative, document-like style has been used a a guiding principle in the design.  Rather than spaced paragraphs, the first line is indendented with the exception of the first paragraph which is unindented. 
+A conservative, book-like style has been used a a guiding principle in the design.  Rather than spaced paragraphs, the first line is indendented with the exception of the first paragraph which is unindented. 
+
+To increase readability hyphenation is encouraged in the justified paragraphs. 
 
 A pleasent readable font appropriate to the subject matter is used for the main text and used consistantly throughout.
 
+To prevent very wide columns of text, the entire content of the pages are inclosed in a div within the *body* tag of the site.  This div has a max_width and the div itself is centred within the viewport as it expands. 
+
 Levels of importance of information are conveyed through the size and style of the fonts used in headings and text according to established convention.
 
-There are no links to external pages but, were there to be, they would open in a new page.
+Links to external pages open in their own tab.
 
 ## Coding considerations
 
@@ -154,7 +158,7 @@ Warnings:
 
 These vendor extensions are needed to encourage hyphenation and therefore justified.
 
-### HTML
+### HTML Validation
 
 Click on the links below to validate them using the [W3C Markup Validation Service](https://validator.w3.org/)
 
