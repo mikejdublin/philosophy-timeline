@@ -183,3 +183,16 @@ Click on the links below to validate them using the [W3C Markup Validation Servi
 [renaissance_philosophy.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Fthe-blackhall-projects.github.io%2Fphilosophy-timeline%2Frenaissance_philosophy.html)
 
 All validations produce "Document checking completed. No errors or warnings to show".
+
+
+## Deployment
+
+The site was deployed to github pages by selecting "Pages" in the side menu, selecting "None" in the dropdown and then clicking on "Main".  After a few minutes the site was deployed to:  https://the-blackhall-projects.github.io/philosophy-timeline/
+
+## Credits
+
+Illustrative images come from Wikipedia and are available under the creative commons licence.
+
+Sign-up form image was created by Dall-e 2.
+
+Text content was created by ChatGPT.
