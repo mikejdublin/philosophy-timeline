@@ -72,8 +72,12 @@ The main content contains a description of the entry that the user clicked upon.
 
 main_content_screenshot.png
 
+### Newsletter Sign-up form
 
-## Screnshots and responsiveness
+![Newsletter signup](https://the-blackhall-projects.github.io/philosophy-timeline/assets/images/newsletter_signup.png)
+
+
+## Responsiveness
 
 Click on image below for live view on [Am I Responsive](https://ui.dev/amiresponsive).
 
