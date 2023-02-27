@@ -74,6 +74,10 @@ main_content_screenshot.png
 
 ### Newsletter Sign-up form
 
+From the main page we can select "Newsletter" which brings us to the signup page for the newsletter with the form below.
+
+Users must fill out the form completely before submitting. Otherwise they are presented with an error.
+
 ![Newsletter signup](https://the-blackhall-projects.github.io/philosophy-timeline/assets/images/newsletter_signup.png)
 
 
@@ -145,6 +149,8 @@ Links to external pages open in their own tab.
 All filenames, image names, IDs and classes are given meaningful and consistent names. The code is clear, understandable, and maintainable and therefore considered 'clean'.  
 
 In terms of file structure, all html files are in the root directory.  There is also an "assets" directory divided in to "css" and "images" where stylesheets and images respectively are placed.  Files consistantly are lower case and without spaces with undescores used to separate words.
+
+A single external stylesheet, style.css, is used for all styles.  No internal or inline styles are used.  
 
 ## CSS and HTML Validation
 
